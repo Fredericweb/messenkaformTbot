@@ -5,7 +5,7 @@ const cors = require("cors")
 
 const { Telegraf } = require('telegraf')
 
-const bot = new Telegraf('5119976984:AAGcLTIfNPk6Oqbn-U_jn3XNY863Tq8ViXY')
+const bot = new Telegraf('5330541921:AAGaSB8MPu0vpkht3QxgSNM5XW7mQiVrGPc')
 
 const msg = `
     *******Bienvenue sur zowblazBot********
