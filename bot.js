@@ -40,7 +40,7 @@ bot.start((ctx) => {
 );
 
 app.post('/web-data', async (req, res) => {
-  const {code} = req.body;
+  const {code, queryId} = req.body;
   try {
       await bot.answerWebAppQuery(queryId, {
           type: 'article',
