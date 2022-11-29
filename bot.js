@@ -43,9 +43,9 @@ app.post('/web-data', async (req, res) => {
   const {code} = req.body;
   try {
       await bot.answerWebAppQuery(queryId, {
-          type: '',
+          type: 'article',
           id: queryId,
-          title: '',
+          title: 'code',
           input_message_content: {
               message_text: code
           }
